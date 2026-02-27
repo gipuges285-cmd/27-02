@@ -2,13 +2,9 @@
 const t = Date.now();
 
 const urls = [
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/BD.m3u?t=" + t,
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/CricHD.m3u?t=" + t,
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/LGTV-Schedule.m3u?t=" + t,
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/Persiana.m3u?t=" + t,
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/Roku-All.m3u?t=" + t,
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/Yupptv.m3u?t=" + t,
-  "https://cdn.jsdelivr.net/gh/abusaeeidx/IPTV-Scraper-Zilla@main/distrotv.m3u?t=" + t
+  "https://cdn.jsdelivr.net/gh/sm-monirulislam/AynaOTT-auto-update-playlist@main/AynaOTT.m3u?t=" + t,
+  "",
+  ""
 ];
 
 let channels = [];
@@ -343,6 +339,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   document.body.appendChild(tg);
 
 });
+
 
 
 
